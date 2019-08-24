@@ -33,7 +33,7 @@ namespace Xfm.Views
 
             var gangMember = e.Item as Item;
 
-            await Navigation.PushAsync(new DetailPage());
+            await Navigation.PushAsync(new DetailPage(movie));
         }
 
         
